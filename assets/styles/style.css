@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+    color: white;
+    gap: 30px;
+}
+
+h1{
+    background-color:rgba(0, 0, 255, 0.808);
+    padding:30px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.Conversor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 55%;
+    background-color: grey;
+    color: black;
+    height: 350px;
+    gap:10pxs ;
+    border-radius: 10px;
+    
+}
+
+h3{
+    font-size: 22px;
+    color: white;
+    font: medium;
+
+    
+    
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    text-align: center;
+   border-radius: 5px;
+   font-size: 20px;
+}
+
+select{
+    width: 50%;
+    height: 50px;
+    border: none;
+    text-align: center;
+   border-radius: 5px;
+   font-size: 15px;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    border: none;
+    text-align: center;
+   border-radius: 5px;
+   font-size: 25px;
+   color: white;
+   background-color:rgba(0, 0, 255, 0.808);
+   box-shadow: 5px 5px 6px black;
+   margin-bottom: 10px;
+}
+
+canvas{
+    background-color: white;
+}
+
+
+p{
+    color: white;
+    font: lighter;
+    font-size: 18px;
+}

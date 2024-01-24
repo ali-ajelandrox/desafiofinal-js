@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    
+    <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>
+            Conversor de Moneda a Nacional
+            <img src="./assets/img/chile (1).png" alt="bandera de chile">
+        </h1>
+   
+        <div class="Conversor">
+            <h3>
+                Pesos CLP
+            </h3>
+            <input type="text" placeholder="Ingrese el Monto en CLP" name="" id="CLP">
+
+            <p>Moneda a convertir : </p>
+                <select name="" id="selector">
+                    <option value="uf">Unidad de fomento (UF)</option>
+                    <option value="ivp">Indice de valor promedio (IVP)</option>
+                    <option value="dolar">Dólar observado</option>
+                    <option value="dolar_intercambio">Dólar acuerdo</option>
+                    <option value="euro">Euro</option>
+                    <option value="ipc">Indice de Precios al Consumidor (IPC)</option>
+                    <option value="utm">Unidad Tributaria Mensual (UTM)</option>
+                    <option value="imacec">Imacec</option>
+                    <option value="tpm">Tasa Política Monetaria (TPM)</option>
+                    <option value="libra_cobre">Libra de Cobre</option>
+                    <option value="tasa_desempleo">Tasa de desempleo</option>
+                    <option value="bitcoin">Bitcoin</option>
+                </select>
+                    
+                        <button id="buscar">Buscar</button>
+                                    
+                <p id="valor-cambio"></p>
+                <h4 id="totales"></h4>
+                
+        </div>
+        <div>
+            <canvas id="miGrafico" width="850px" height="600px" ></canvas>
+        </div>
+        
+
+            
+    </section>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
